@@ -1,0 +1,30 @@
+Grades for version committed on time
+	part 2: 5.56 / 70.0
+			*Partially passed test: mapseed 42 (default mapseed)
+					Your score: 2 Threshold: 55.0
+					Your starcoins: 2.0 Threshold: 24.0
+			*Partially passed test: mapseed 106
+					Your score: 1 Threshold: 80.0
+					Your starcoins: 1.0 Threshold: 24.0
+			*Partially passed test: mapseed 999
+					Your score: 2 Threshold: 70.0
+					Your starcoins: 4.0 Threshold: 24.0
+		
+Total: 5.56 / 70.0
+
+Grades for version committed as of 48 hours after deadline
+	part 2: 52.5 / 70.0
+			*Partially passed test: mapseed 42 (default mapseed)
+					Your score: -76 Threshold: 55.0
+					Your starcoins: 47.0 Threshold: 24.0
+			*Partially passed test: mapseed 106
+					Your score: -70 Threshold: 80.0
+					Your starcoins: 60.0 Threshold: 24.0
+			*Partially passed test: mapseed 999
+					Your score: -27 Threshold: 70.0
+					Your starcoins: 47.0 Threshold: 24.0
+		
+	Late penalty: 40.0% (waivers are applied at the end of the semester)
+Total: 31.5 / 70.0
+
+Final Score: 31.5 / 70.0

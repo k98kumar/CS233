@@ -1,0 +1,14 @@
+Grades for version committed on time
+	extract_message: 0 / 40
+				 Assignment explicitly said to not use additional includes. Additional includes used: {'bitset', 'string'}
+	count_ones: 40.0 / 40
+			*Passed test: 2
+			*Passed test: 55
+			*Passed test: 42
+			*Passed test: 0xffffffff
+			*Passed test: 0x12345678
+			*Passed test: 0x55555555
+		
+Total: 40.0 / 80
+
+Final Score: 40.0 / 80

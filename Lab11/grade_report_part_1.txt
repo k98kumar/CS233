@@ -1,0 +1,25 @@
+Grades for version committed on time
+	pipelined_adding_machine test: 2.0 / 20
+			*Passed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Failed test: add
+			*Passed test: add
+		
+Total: 2.0 / 20
+
+Final Score: 2.0 / 20

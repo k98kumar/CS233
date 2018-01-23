@@ -1,0 +1,82 @@
+Grades for version committed on time
+	has_cycle: 32.0 / 40
+		has_cycle.s: warning: Found 3 instances of jr $ra. Using multiple return points is error prone. Consider merging return points into a single label.
+			*Passed test: base case
+			*Passed test: base case (evil)
+			*Passed test: single
+			*Partially passed test: single (evil) (callee-saved registers were modified)
+			*Passed test: given1
+			*Partially passed test: given1 (evil) (callee-saved registers were modified)
+			*Passed test: given2
+			*Partially passed test: given2 (evil) (callee-saved registers were modified)
+			*Passed test: combined
+			*Partially passed test: combined (evil) (callee-saved registers were modified)
+		
+	max_depth: 30.0 / 30
+		max_depth.s: warning: Found 2 instances of jr $ra. Using multiple return points is error prone. Consider merging return points into a single label.
+			*Passed test: base case
+			*Passed test: base case (evil)
+			*Passed test: given_1
+			*Passed test: given_1 (evil)
+			*Passed test: given_2
+			*Passed test: given_2 (evil)
+			*Passed test: given_3
+			*Passed test: given_3 (evil)
+			*Passed test: combined
+			*Passed test: combined (evil)
+		
+	shift_many: 0.0 / 20
+			*Failed test: base case
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: base case (evil)
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_1
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_1 (evil)
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_2
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_2 (evil)
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_3
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: given_3 (evil)
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: large
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+			*Failed test: large (evil)
+				*Error running test: 
+					spim: (parser) syntax error on line 36 of file cs233_checkout/kkumar24/Lab8/shift_many.s
+						  move	$t0,	$zero		// i = 0
+						                   ^
+		
+Total: 62.0 / 70
+
+Final Score: 62.0 / 70

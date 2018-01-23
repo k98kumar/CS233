@@ -1,0 +1,9 @@
+Grades for version committed on time
+	filter: 80.0 / 80
+			*Passed test: prefetch
+			*Passed test: fusion
+			*Passed test: all
+		
+Total: 80.0 / 80
+
+Final Score: 80.0 / 80

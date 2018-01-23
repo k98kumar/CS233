@@ -1,0 +1,38 @@
+Grades for version committed on time
+	decoder: 2.86 / 20
+			*Partially passed test: invalid (opcode = 20 funct = 20) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: add (opcode = 00 funct = 20)
+				*Your output: alu_op = 010 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Failed test: addi (opcode = 08 funct = 20)
+				*Your output: alu_op = 010 rd_src = 1 alu_src2 = 1 writeenable = z except = 0
+			*Failed test: sub (opcode = 00 funct = 22)
+				*Your output: alu_op = 011 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Partially passed test: invalid (opcode = 22 funct = 22) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: and (opcode = 00 funct = 24)
+				*Your output: alu_op = 100 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Partially passed test: invalid (opcode = 24 funct = 24) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: andi (opcode = 0c funct = 24)
+				*Your output: alu_op = 100 rd_src = 1 alu_src2 = 1 writeenable = z except = 0
+			*Failed test: or (opcode = 00 funct = 25)
+				*Your output: alu_op = 101 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Failed test: ori (opcode = 0d funct = 25)
+				*Your output: alu_op = 101 rd_src = 1 alu_src2 = 1 writeenable = z except = 0
+			*Partially passed test: invalid (opcode = 25 funct = 25) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: nor (opcode = 00 funct = 27)
+				*Your output: alu_op = 110 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Partially passed test: invalid (opcode = 27 funct = 27) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: xor (opcode = 00 funct = 26)
+				*Your output: alu_op = 111 rd_src = 0 alu_src2 = 0 writeenable = z except = 0
+			*Partially passed test: invalid (opcode = 26 funct = 26) (writeenable wrong)
+				*Your output: alu_op = 000 rd_src = 0 alu_src2 = 0 writeenable = z except = 1
+			*Failed test: xori (opcode = 0e funct = 26)
+				*Your output: alu_op = 111 rd_src = 1 alu_src2 = 1 writeenable = z except = 0
+		
+Total: 2.86 / 20
+
+Final Score: 2.86 / 20

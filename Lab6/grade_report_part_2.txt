@@ -1,0 +1,42 @@
+Grades for version committed on time
+	full machine: 72.0 / 80
+			*Passed test: add
+			*Passed test: sub
+			*Passed test: and
+			*Passed test: or
+			*Passed test: nor
+			*Passed test: xor
+			*Passed test: addi
+			*Passed test: andi
+			*Passed test: ori
+			*Passed test: xori
+			*Passed test: lui
+			*Passed test: slt less than
+			*Passed test: slt equal
+			*Passed test: slt greater than
+			*Failed test: lbu
+				*Your output: 0x000000ba
+			*Failed test: lbu
+				*Your output: 0x000000ad
+			*Failed test: lbu
+				*Your output: 0x000000f0
+			*Failed test: lbu
+				*Your output: 0x0000000d
+			*Passed test: lw
+			*Passed test: sb
+			*Failed test: slt extra credit greater than
+				*Your output: 0x00000001
+			*Failed test: slt extra credit less than
+				*Your output: 0x00000000
+			*Passed test: j
+			*Passed test: jr
+			*Passed test: beq taken
+			*Passed test: beq not taken
+			*Passed test: bne taken
+			*Passed test: bne not taken
+			*Failed test: addm
+				*Your output: 0x10010000
+		
+Total: 72.0 / 80
+
+Final Score: 72.0 / 80

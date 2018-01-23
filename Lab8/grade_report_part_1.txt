@@ -1,0 +1,46 @@
+Grades for version committed on time
+	decrypt: 0.0 / 30
+			*Failed test: base case
+				*Error running test: 
+					Exception occurred at PC=0x004004cc
+					  Bad address in data/stack read: 0x00000066
+			*Failed test: base case (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004007a0
+					  Unaligned address in store: 0x7fffc52b
+			*Failed test: Test_Given1
+				*Error running test: 
+					Exception occurred at PC=0x004004cc
+					  Bad address in data/stack read: 0x000000aa
+			*Failed test: Test_Given1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004007a0
+					  Unaligned address in store: 0x7fffc52b
+			*Failed test: Test_Given2
+				*Error running test: 
+					Exception occurred at PC=0x004004cc
+					  Bad address in data/stack read: 0x000000aa
+			*Failed test: Test_Given2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004007a0
+					  Unaligned address in store: 0x7fffc52b
+			*Failed test: one_round
+				*Error running test: 
+					Exception occurred at PC=0x004004cc
+					  Bad address in data/stack read: 0x00000011
+			*Failed test: one_round (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004007a0
+					  Unaligned address in store: 0x7fffc52b
+			*Failed test: test_unsigned
+				*Error running test: 
+					Exception occurred at PC=0x004004cc
+					  Bad address in data/stack read: 0x000010ef
+			*Failed test: test_unsigned (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004007a0
+					  Unaligned address in store: 0x7fffc52b
+		
+Total: 0.0 / 30
+
+Final Score: 0.0 / 30

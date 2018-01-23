@@ -1,0 +1,62 @@
+Grades for version committed on time
+	timer: 2.07 / 30
+			*Passed test: initial reset
+			*Failed test: initial reset
+				*Your output: TimerInterrupt = 1 TimerAddress = 0 cycle = z
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 0 TimerAddress = 1 cycle = 0
+			*Failed test: reading cycle
+				*Your output: no output
+			*Failed test: reading cycle
+				*Your output: no output
+			*Failed test: reading cycle
+				*Your output: no output
+			*Passed test: requesting interrupt
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 0 TimerAddress = 1 cycle = 0
+			*Failed test: reading cycle
+				*Your output: no output
+			*Failed test: raising interrupt
+				*Your output: no output
+			*Failed test: raising interrupt
+				*Your output: no output
+			*Failed test: raising interrupt
+				*Your output: no output
+			*Failed test: achnowledging interrupt
+				*Your output: no output
+			*Failed test: achnowledged interrupt
+				*Your output: no output
+			*Failed test: requesting interrupt
+				*Your output: no output
+			*Failed test: overwriting previous request
+				*Your output: no output
+			*Failed test: raising interrupt
+				*Your output: no output
+			*Failed test: acknowledging interrupt
+				*Your output: no output
+			*Failed test: acknowledged interrupt
+				*Your output: no output
+			*Failed test: reading cycle
+				*Your output: no output
+			*Failed test: reading cycle
+				*Your output: no output
+			*Failed test: reading from non-time address
+				*Your output: no output
+			*Failed test: request a time interrupt
+				*Your output: no output
+			*Failed test: resetting again ...
+				*Your output: no output
+			*Failed test: reset
+				*Your output: no output
+			*Failed test: reset
+				*Your output: no output
+			*Failed test: reset
+				*Your output: no output
+			*Failed test: reset
+				*Your output: no output
+		
+Total: 2.07 / 30
+
+Final Score: 2.07 / 30
